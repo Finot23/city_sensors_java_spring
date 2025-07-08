@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.example.alertservice.model;
 
 public class EvaluacionRequest {
@@ -9,7 +5,6 @@ public class EvaluacionRequest {
     private double temperatura;
     private double calidad_aire;
 
-    // Getters y setters
     public String getBarrio() {
         return barrio;
     }
@@ -33,5 +28,4 @@ public class EvaluacionRequest {
     public void setCalidad_aire(double calidad_aire) {
         this.calidad_aire = calidad_aire;
     }
-    
 }

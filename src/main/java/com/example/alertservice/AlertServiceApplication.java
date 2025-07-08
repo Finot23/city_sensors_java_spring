@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.example.alertservice;
 
 import org.springframework.boot.SpringApplication;
@@ -13,4 +9,3 @@ public class AlertServiceApplication {
         SpringApplication.run(AlertServiceApplication.class, args);
     }
 }
-
