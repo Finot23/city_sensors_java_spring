@@ -1,22 +1,32 @@
-☁️ city_monitor_springboot
-🛰️ Proyecto: Sistema Distribuido para Monitoreo Ambiental
+#Mini-Proyecto "city_monitor_springboot"
+(Sistema Distribuido para Monitoreo Ambiental)
 
-Autores: Andrés Mateo Dorantes, José Abraham Marín Sánchez, Luis Antonio Salinas Mata
-Fecha: 07/07/2025
 UEA: Sistemas Distribuidos
 
-🎯 Objetivo
+👥 Autores:
 
-Desarrollar un sistema distribuido que monitoree variables ambientales (temperatura y calidad del aire) en distintos barrios mediante una arquitectura distribuida con servicios desacoplados.
-La solución está construida con Java 17, Spring Boot y comunicación HTTP REST con formato JSON.
+    - Andrés Mateo Dorantes
+    - José Abraham Marín Sánchez
+    - Luis Antonio Salinas Mata
 
-🧩 Arquitectura General
+Objetivo:
+
+Desarrollar un sistema distribuido que monitoree variables ambientales (temperatura y calidad del aire) en distintos barrios de una ciudad, utilizando una arquitectura basada en microservicios desacoplados.
+
+La solución emplea:
+
+    - Java 17
+    - Spring Boot
+    - Comunicación RESTful
+    - Contenedores Docker para despliegue
+
+#Arquitectura General
 
 El sistema está compuesto por los siguientes módulos:
 
-    🛰️ SimuladorAlerta: Cliente Java que simula sensores de barrios, generando datos ambientales aleatorios periódicamente y enviándolos vía HTTP POST.
+    - SimuladorAlerta: Cliente Java que simula sensores de barrios, generando datos ambientales aleatorios periódicamente y enviándolos vía HTTP POST.
 
-    ⚙️ AlertService: Servicio Spring Boot que:
+    - AlertService: Servicio Spring Boot que:
 
         Recibe datos del simulador mediante POST.
 
