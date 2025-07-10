@@ -77,7 +77,7 @@ Los datos se reciben en formato JSON como:
 
     Clona el repositorio:
 ```bash
-    git clone https://github.com/TU-USUARIO/city_monitor_springboot
+    git clone https://github.com/Finot23/city_monitor_springboot
     cd city_monitor_springboot
 ```
 Desde tu terminal crea la imagen de docker y ejecuta:
