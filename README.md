@@ -103,5 +103,5 @@ Verifica en navegador:
     http://localhost:8080/alertas → lista de alertas
     http://localhost:8080/datos → todas las lecturas
     http://localhost:8080/evaluar → mensaje si accedes con navegador
-
-    
+# Ejemplo de como se veria el Docker en accion:
+![Arquitectura]Images/Captura de pantalla 2025-07-10 a la(s) 2.41.16 p.m..png
