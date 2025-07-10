@@ -36,7 +36,7 @@ El sistema está compuesto por los siguientes módulos:
 - Expone endpoints GET para consultar alertas y datos recibidos.
 
 Diagrama de arquitectura:
-
+![Arquitectura](imagenes/image.png)
 
 
 # Tecnologías Usadas
