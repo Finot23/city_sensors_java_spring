@@ -3,7 +3,7 @@
 
 UEA: Sistemas Distribuidos
 
-👥 Autores:
+Autores:
 
 - Andrés Mateo Dorantes
 - José Abraham Marín Sánchez
@@ -39,7 +39,7 @@ Diagrama de arquitectura:
 
 
 
-![Arquitectura](Images/image.png)
+![Arquitectura](Images/image.jpeg)
 
 
 
