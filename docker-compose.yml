@@ -1,26 +1,21 @@
-version: "3.8"
-
+version: '3.8'
 services:
-  sensor_service:
-    build: ./sensor_service
+  alertservice:
+    build:
+      context: ./alertservice
+    ports:
+      - "8080:8080"
+    networks:
+      - monitor-net
+
+  simulador:
+    build:
+      context: ./simulador
     depends_on:
-      - collector_service
+      - alertservice
+    networks:
+      - monitor-net
 
-  collector_service:
-    build: ./collector_service
-    ports:
-      - "5010:5010"
-    depends_on:
-      - storage_service
-      - alert_services
-
-  storage_service:
-    build: ./storage_service
-    ports:
-      - "5011:5011"
-
-  alert_services:
-    build: ./alert_services
-    ports:
-      - "5012:5012"
+networks:
+  monitor-net:
 
