@@ -28,7 +28,7 @@ public class SimuladorAlerta {
 
                 String json = mapper.writeValueAsString(data);
 
-                URL url = new URL("http://localhost:8080/evaluar");
+                URL url = new URL("http://alertservice:8080/evaluar");
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 
                 conn.setRequestMethod("POST");
