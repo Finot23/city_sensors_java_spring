@@ -1,17 +1,17 @@
-version: '3.9'
+version: '3.8'
 
 services:
   alertservice:
-    build: ./alertservice
-    container_name: alertservice
+    build:
+      context: ./alertservice
     ports:
       - "8080:8080"
     networks:
       - monitor-net
 
   simulador:
-    build: ./simulador
-    container_name: simulador
+    build:
+      context: ./simulador
     depends_on:
       - alertservice
     networks:
@@ -19,5 +19,3 @@ services:
 
 networks:
   monitor-net:
-    driver: bridge
-
